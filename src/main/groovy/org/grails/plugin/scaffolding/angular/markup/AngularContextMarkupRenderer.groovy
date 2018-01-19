@@ -15,7 +15,7 @@ class AngularContextMarkupRenderer extends ContextMarkupRendererImpl {
         final String listName = "${propertyName}List"
 
         return { ->
-            table(border:1, cellpadding:5, class:alibaba,){
+            table(border:1, cellpadding:5){
                 thead {
                     tr {
                         properties.each {
