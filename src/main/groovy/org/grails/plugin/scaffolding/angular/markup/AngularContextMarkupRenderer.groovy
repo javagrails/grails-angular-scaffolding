@@ -6,6 +6,7 @@ import org.grails.scaffolding.model.property.DomainProperty
 
 /**
  * Created by jameskleeh on 2/21/17.
+ * Updated by JavaGrails on 01/19/2018.
  */
 class AngularContextMarkupRenderer extends ContextMarkupRendererImpl {
 
