@@ -59,14 +59,14 @@ bootRun {
 bootRepackage.enabled = false
 
 grailsPublish {
-    userOrg = "grails"
-    githubSlug = 'grails-plugins/grails-angular-scaffolding'
+    userOrg = "javagrails"
+    githubSlug = 'javagrails/grails-angular-scaffolding'
     license {
         name = 'Apache-2.0'
     }
     title = "Angular Scaffolding Plugin"
     desc = "Provides scaffolding for Angular applications"
-    developers = [jameskleeh: "James Kleeh"]
+    developers = [javagrails: "Java Grails"]
 }
 
 asciidoctor {
